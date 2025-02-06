@@ -4,24 +4,24 @@
 This project focuses on classifying Vietnamese questions into predefined categories using **Natural Language Processing (NLP)**. The model was trained on a custom dataset and optimized to improve classification accuracy for better information retrieval.
 
 ## ✨ Features
-- ✅ **Multi-class Text Classification** – Categorizes questions into **8 predefined types** (e.g., Who, What, Why, When).
+- ✅ **Multi-class Text Classification** – Categorizes questions into **8 predefined types** ("Where", "When", "What", "Why", "How", "Who", "Yes/No", and "Quantity").
 - 📊 **Custom Dataset** – Built with **1,200 labeled questions** specifically for Vietnamese text processing.
-- 🔠 **Feature Engineering** – Utilized **TF-IDF vectorization** and **word embeddings** for better text representation.
-- 🤖 **Machine Learning Models** – Implemented and compared **Logistic Regression, SVM, and LSTM-based models**.
+- 🔠 **Feature Engineering** – Utilized **TF-IDF vectorization** for better text representation.
+- 🤖 **Machine Learning Models** – Implemented **Logistic Regression model**.
 - 🎯 **Performance Evaluation** – Achieved **90% accuracy** on the test dataset.
 
 ## 🛠 Technologies Used
 - 🐍 **Programming Language**: Python
-- 📚 **Libraries**: NLTK, Scikit-learn, TensorFlow, Pandas, NumPy
-- 🔡 **Text Processing**: TF-IDF, Word2Vec, FastText
-- 🤖 **Machine Learning Models**: Logistic Regression, SVM, LSTM
+- 📚 **Libraries**: Matplotlib, Scikit-learn, Pandas, NumPy
+- 🔡 **Text Processing**: TF-IDF
+- 🤖 **Machine Learning Models**: Logistic Regression
 
 ## 🚀 Installation
 ### 🔧 Prerequisites
 Ensure Python is installed (recommended version: **3.8+**)
 
 ```bash
-pip install nltk scikit-learn tensorflow pandas numpy
+pip install scikit-learn pandas numpy
 ```
 
 ## ▶️ Usage
